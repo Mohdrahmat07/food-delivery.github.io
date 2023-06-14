@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>.styled {
+        border: 0;
+        line-height: 2.5;
+        padding: 0 20px;
+        font-size: 1rem;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 1px #000;
+        border-radius: 10px;
+        background-color: rgba(220, 0, 0, 1);
+        background-image: linear-gradient(to top left,
+                                          rgba(0, 0, 0, .2),
+                                          rgba(0, 0, 0, .2) 30%,
+                                          rgba(0, 0, 0, 0));
+        box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    }
+    
+    .styled:hover {
+        background-color: rgba(255, 0, 0, 1);
+    }
+    
+    .styled:active {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                    inset 2px 2px 3px rgba(0, 0, 0, .6);
+    }
+    </style>
+</head>
+<body>
+  <center>
+    <form action="form.php">
+      <fieldset>
+
+
+      Name: <input type="text" placeholder="Enter your name">
+      <label for="start">Start date:</label><br>
+
+      <input type="password" name="password">
+      
+      <input type="date" id="start" name="trip-start"
+      value="2018-07-22"
+      min="2018-01-01" max="2018-12-31"><br><br>
+      
+      
+      <legend>Choose your options:</legend>
+      
+      <div>
+        <input type="checkbox" id="Goa" name="Goa" checked>
+        <label for="Goa">Goa</label>
+      </div>
+      
+      <div>
+        <input type="checkbox" id="Manali" name="Manali">
+        <label for="Manali">Manali</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Manali" name="Manali">
+        <label for="Manali">Manali</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Manali" name="Manali">
+        <label for="Manali">Manali</label>
+      </div>
+      <div>
+        <input type="checkbox" id="Manali" name="Manali">
+        <label for="Manali">Manali</label>
+      </div>
+      
+      <legend>Select your Gender:</legend>
+      
+      <div>
+        <input type="radio" id="Male" name="Gender" value="Male"
+        checked>
+        <label for="Male">Male</label>
+        
+        
+        
+        <input type="radio" id="Female" name="Gender" value="Female">
+        <label for="Female">Female</label>
+        
+        
+        
+        <input type="radio" id="Other" name="Gender" value="Other">
+        <label for="Other">Other</label>
+      </div>
+      
+      <input class="favorite styled"
+      type="Data Submit"
+      value="Submit"><br><br>
+      
+      <label for="pet-select">Choose a Car:</label>
+      
+      <select id="Car-select">
+        <option value="">--Please choose a Car--</option>
+        <option value="Baleno">Baleno</option>
+        <option value="hamster">Hamster</option>
+        <option value="hamster">Hamster</option>
+        <option value="parrot">Parrot</option>
+        <option value="spider">Spider</option>
+        <option value="goldfish">Goldfish</option>
+      </select>
+      
+      <textarea name="info" id="info" cols="30" rows="10"placeholder="Explain about yourself"></textarea><br>
+      </fieldset>
+      
+    </form>
+    </center>
+      
+      
+    </body>
+    </html>

@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+#first {
+    background-color: red;
+    color: pink;
+    width: 250px;
+    height: 200px;
+}
+
+.red {
+    background-color: #10b44f;
+    color: aliceblue;
+    width: 250px;
+    height: 200px;
+}
+
+
+h2,h3,h4 {
+    background-color: aquamarine;
+    color: black;
+    width: 200px;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.imag {
+    background-image: url("https://5.imimg.com/data5/LX/PM/GLADMIN-68162457/kawasaki-ninja-h2-bike-500x500.png");
+    width: 1000px;
+    height: 500px;
+    border: 2px solid black;
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-attachment: local;
+}
